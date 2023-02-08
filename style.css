@@ -2,14 +2,24 @@
 
 body {
     font-size: 1.2rem;
-    background-color: rgb(62, 248, 102);
+    background-color: rgb(192, 192, 192);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
+
 }
 .container {
     width: min(80ch, 100vw - 4rem);
     margin-inline: auto;
 }
-
+li {
+    display: inline;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
 main {
     margin-top: 4vh;
     margin-bottom: 8vh;
@@ -48,7 +58,8 @@ main {
 
 nav {
     font-size: 3rem;
-    color: rgb(184, 18, 18);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
 }
 
 a {
